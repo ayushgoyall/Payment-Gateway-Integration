@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  background-image: url('./homepage_wallpaper.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 100vh;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  padding: auto 4rem;
+}
+.content {
+  text-align: center;
+  max-width: 600px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 16px;
+  padding: 3rem 4rem;
+}
+
+.content h1 {
+  margin-bottom: 1rem;
+}
+
+.content h4 {
+  margin-bottom: 5rem;
+}
+
+.actions {
+  transform: scale(1);
+  transition: transform 300ms ease-in-out;
+}
+
+.actions:hover {
+  transform: scale(1.2);
+}
+.actions a {
+  text-decoration: none;
+  color: black;
+  border: 2px transparent solid;
+  padding: 1rem 3rem;
+  border-radius: 24px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: white;
+  transition: all 300ms ease-in-out;
+}
+.actions a:hover {
+  background-color: black;
+  color: white;
+}
+
+.action a:hover {
+  transform: scale(2);
+}
+
